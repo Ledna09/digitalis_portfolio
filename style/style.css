@@ -4,6 +4,7 @@ body {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  background-color: aquamarine;
 }
 
 .bg {
@@ -84,4 +85,36 @@ body::before {
 
 .text {
   margin-left: 20px;
+  text-align: center;
 }
+
+.text1 {
+  margin-left: 20px;
+  color: blue;
+}
+
+.dig_port_1 {
+  background-color: #E9967A;
+  font-size: x-small;
+  width: 10%;
+  height: 80px;
+  margin: auto;
+  margin-bottom: 25px;
+  border: 1px solid black;
+  border-radius: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dig_port_1 a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
