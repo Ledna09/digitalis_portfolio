@@ -1,10 +1,8 @@
-body {
+html, body {
   margin: 0;
+  height: 100%;
+  background-color: #c5ad95;
   font-family: Arial, Helvetica, sans-serif;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  background-color: aquamarine;
 }
 
 .bg {
@@ -90,7 +88,8 @@ body::before {
 
 .text1 {
   margin-left: 20px;
-  color: blue;
+  text-align: center;
+  color: rgb(99, 5, 53);
 }
 
 .dig_port_1 {
@@ -111,10 +110,17 @@ body::before {
 
 .dig_port_1 a {
   float: left;
-  color: #f2f2f2;
+  color: #f9f7f7;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
+
+ol {
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0;
+}
+
 
